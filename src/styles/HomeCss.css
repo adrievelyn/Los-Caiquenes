@@ -1,0 +1,194 @@
+.container {
+	margin-top: 5px;
+	
+}
+
+.logo {
+	width: 100px;
+	height: 100px;
+}
+
+.events {
+	display: flex;
+	font-size: 10px;
+	justify-content: space-between;
+}
+
+.home, .gastos {
+	background: #BC412B;
+	width: 65px;
+	height: 30px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.home {
+	padding: 7px;
+
+}
+
+.gastos2, .gastos3 {
+	background-color: white;
+	border-radius: 10px;
+	margin-right: 5px;
+	margin-top: 15px;
+	border-style: dotted;
+	color: black;
+	font-size: 15px;
+
+}
+
+.gastos2{
+	width: 250px;
+	height: 170px;
+	
+}
+
+.gastos3{
+	width: 220px;
+	height: 170px;
+}
+
+.covid{
+	border-radius: 10px;
+	margin-right: 35px;
+}
+
+.comunitySlider {
+	margin: auto;
+	overflow: hidden;
+}
+
+.comunitySlider ul{
+	padding: 0;
+	display: flex;
+	width:400%;
+
+	animation: cambio 20s infinite alternate;
+	animation-timing-function: step-end;
+}
+
+.comunitySlider li{
+	width: 100%;
+	list-style: none;
+	
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+.welcome{
+	text-align: center;
+	font-size: 17px;
+	color: yellow;
+	padding-top: 10px;
+}
+
+.comunity3 {
+	border-style: dotted;
+	width: 1500px;
+	height: 190px;
+	margin-top: 1px;
+	border-radius: 10px;
+	background: #357266;
+	color: white;
+
+}
+
+.allComunity, .allComunity3 {
+	display: flex;
+	justify-content: space-between;
+	background: white;
+}
+
+.covid {
+	display: flex;
+	padding-top: 30px;
+}
+
+.enlace {
+	color: darkblue;
+	padding-left: 5px;
+}
+
+a {
+	color: white;
+}
+
+p {
+	padding-left: 5px;
+}
+
+h3 {
+	margin-top: 10px;
+
+}
+
+h4 {
+	padding-top: 10px;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+h6 {
+	color: darkblue;
+	padding-left: 5px;
+}
+
+img {
+	border-radius: 10px;
+
+}
+
+.footer {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 10px;
+	background-color: #BC412B;
+	margin-top: 5px;
+	color: white;
+	border-radius: 5px;
+}
+
+/*RESPONSIVE*/
+
+/*@media (min-width:900px){
+ 	
+ 	.gastos2{
+	 	background-color: white;
+		width: 400px;
+		height: 190px;
+		border-radius: 10px;
+		margin-right: 5px;
+		border-style: dotted;
+		color: black;
+		font-size: 20px;
+ 	}
+
+	h6 {
+		color: darkblue;
+		font-size: 20px;
+	}
+
+	.comunity {
+		width: 400px;
+		height: 190px;
+	}
+
+
+
+}
+*/

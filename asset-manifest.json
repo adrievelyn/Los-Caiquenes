@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Los-Caiquenes/static/css/main.0a383a33.chunk.css",
+    "main.js": "/Los-Caiquenes/static/js/main.0ed9f0fd.chunk.js",
+    "main.js.map": "/Los-Caiquenes/static/js/main.0ed9f0fd.chunk.js.map",
+    "runtime-main.js": "/Los-Caiquenes/static/js/runtime-main.407045df.js",
+    "runtime-main.js.map": "/Los-Caiquenes/static/js/runtime-main.407045df.js.map",
+    "static/css/2.de424728.chunk.css": "/Los-Caiquenes/static/css/2.de424728.chunk.css",
+    "static/js/2.e27ba384.chunk.js": "/Los-Caiquenes/static/js/2.e27ba384.chunk.js",
+    "static/js/2.e27ba384.chunk.js.map": "/Los-Caiquenes/static/js/2.e27ba384.chunk.js.map",
+    "index.html": "/Los-Caiquenes/index.html",
+    "precache-manifest.490c410552eccf8538e27f736ae0338c.js": "/Los-Caiquenes/precache-manifest.490c410552eccf8538e27f736ae0338c.js",
+    "service-worker.js": "/Los-Caiquenes/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/Los-Caiquenes/static/css/2.de424728.chunk.css.map",
+    "static/css/main.0a383a33.chunk.css.map": "/Los-Caiquenes/static/css/main.0a383a33.chunk.css.map",
+    "static/js/2.e27ba384.chunk.js.LICENSE.txt": "/Los-Caiquenes/static/js/2.e27ba384.chunk.js.LICENSE.txt",
+    "static/media/caiquenes1.png": "/Los-Caiquenes/static/media/caiquenes1.7acce552.png",
+    "static/media/caiquenes2.png": "/Los-Caiquenes/static/media/caiquenes2.cb16b42e.png",
+    "static/media/caiquenes3.png": "/Los-Caiquenes/static/media/caiquenes3.611d4cce.png",
+    "static/media/comunity.png": "/Los-Caiquenes/static/media/comunity.d8e96b18.png",
+    "static/media/foto1.png": "/Los-Caiquenes/static/media/foto1.5e159d67.png",
+    "static/media/foto3.png": "/Los-Caiquenes/static/media/foto3.77811c02.png",
+    "static/media/foto4.png": "/Los-Caiquenes/static/media/foto4.b17d66cd.png",
+    "static/media/foto5.png": "/Los-Caiquenes/static/media/foto5.a73faa14.png",
+    "static/media/foto6.png": "/Los-Caiquenes/static/media/foto6.7c67a69a.png",
+    "static/media/foto7.png": "/Los-Caiquenes/static/media/foto7.b5063997.png",
+    "static/media/imagen.png": "/Los-Caiquenes/static/media/imagen.bad393e0.png",
+    "static/media/logoCaiquenes2.png": "/Los-Caiquenes/static/media/logoCaiquenes2.ed6d5eee.png",
+    "static/media/menu.png": "/Los-Caiquenes/static/media/menu.cca03bb8.png",
+    "static/media/prevencion.png": "/Los-Caiquenes/static/media/prevencion.dabf5e20.png",
+    "static/media/sintomas.png": "/Los-Caiquenes/static/media/sintomas.0677a6a0.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.407045df.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.e27ba384.chunk.js",
+    "static/css/main.0a383a33.chunk.css",
+    "static/js/main.0ed9f0fd.chunk.js"
+  ]
+}

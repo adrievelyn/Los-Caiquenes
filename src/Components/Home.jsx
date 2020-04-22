@@ -1,13 +1,16 @@
 import React from 'react';
 import HomeCss from './../styles/HomeCss.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Logo from './../styles/images/logoCaiquenes.png';
+import Logo from './../styles/images/logoCaiquenes2.png';
+import Menu from './../styles/images/menu.png';
 import comunity from './../styles/images/comunity.png';
 import comunity1 from './../styles/images/caiquenes1.png';
 import comunity2 from './../styles/images/caiquenes2.png';
 import comunity3 from './../styles/images/caiquenes3.png';
 import comunity4 from './../styles/images/sintomas.png';
 import comunity5 from './../styles/images/prevencion.png';
+import Paisaje from './../styles/images/imagen.png';
+
 
 
 class Home extends React.Component {
@@ -21,36 +24,32 @@ class Home extends React.Component {
 				<div className='logo'>
 					<img src= {Logo} alt='Logo' width='100' height='100' />
 				</div>
-				<div className='home'>
-					<a href="#1" onclick="Home" id='p01'>
+			<header>
+				<input type='checkbox' id='btn-menu' />
+				<label for='btn-menu'><img src= {Menu} alt='Logo' width='50' height='50' /></label> 
+				<nav class='home1'>
+				<ul class='home2'>
+					<li><a href="#1" onclick="Home" id='p01'>
   					Home
-					</a>
-				</div>
-				<div className='home'>
-					<a href="#2" onclick="Directiva" id='p02'>
+					</a></li>
+				<li><a href="#2" onclick="Directiva" id='p02'>
   					Directiva
-					</a>
-				</div>
-				<div className='home'>
-					<a href="#3" onclick="Informativos" id='p03'>
+					</a></li>
+				<li><a href="#3" onclick="Informativos" id='p03'>
   					Informativos
-					</a>
-				</div>
-				<div className='home'>
-					<a href="#4" onclick="Actividades" id='p04'>
+					</a></li>
+				<li><a href="#4" onclick="Actividades" id='p04'>
   					Actividades
-					</a>
-				</div>
-				<div className='home'>
-					<a href="#5" onclick="Patrimonio" id='p05'>
+					</a></li>
+				<li><a href="#5" onclick="Patrimonio" id='p05'>
   					Patrimonio
-					</a>
-				</div>
-				<div className='gastos'>
-					<a href="#6" onclick="Gastos Comunes" id='p06'>
+					</a></li>
+				<li><a href="#6" onclick="Gastos Comunes" id='p06'>
   					Gastos Comunes
-					</a>
-				</div>
+					</a></li>
+					</ul>
+					</nav>
+			</header>
 			</div>
 
 				<div className='allComunity'>
@@ -63,7 +62,10 @@ class Home extends React.Component {
 							<li><img src= {comunity3} alt='imageComunity' width='400' height='190' /></li>
 						</ul>
 					</div>
+
+					<img src= {Paisaje} alt='paisaje' width='200' height='190'className='imagen'  />
 					<div className='comunity3'>
+
 						<h4>Vivir aquí y ahora. Estar presente parece obvio, 
 							y aunque debería serlo, en realidad es la excepción. 
 							¿Por qué? Porque la verdadera presencia es más que 
@@ -110,7 +112,7 @@ class Home extends React.Component {
 						</ul>
 					</div>
 				</div>
-
+			
 					<div className='footer'>
 						<b>Copyright - Condominio Los Caiquenes - Altos de Izarra</b>
 					</div>

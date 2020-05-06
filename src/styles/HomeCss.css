@@ -30,7 +30,7 @@ label:hover{
 	list-style: none;
 	padding: 0;
 	display: flex;
-	background-color: #000;
+	
 }
 
 .home1 li{
@@ -46,6 +46,7 @@ label:hover{
 
 .container {
 	margin-top: 5px;
+
 	
 }
 
@@ -61,7 +62,7 @@ label:hover{
 	background-color: #086788;
 	border-radius: 10px;
 	margin-bottom: 5px;
-	padding-top: 10px;
+	height: 50px;
 }
 
 .home1, .gastos {
@@ -70,7 +71,6 @@ label:hover{
 	height: 50px;
 	text-align: center;
 	border-radius: 5px;
-	margin-top: 20px;
 	font-size: 20px;
 }
 
@@ -104,11 +104,17 @@ label:hover{
 	height: 170px;
 }
 
-.covid{
+.covid img{
 	border-radius: 10px;
 	margin-right: 35px;
-	display: flex;
 	padding-top: 30px;
+	width: 400px;
+	height: 400px;
+}
+
+.covid{
+	display: flex;
+
 }
 
 .comunitySlider {
@@ -454,6 +460,10 @@ img {
 	.home1 li:hover{
 		
 	}
+
+		.home1 ul{
+	background-color: #000;
+}
 
 	#btn-menu:checked ~ .home1 {
 		margin: 0;

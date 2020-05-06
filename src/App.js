@@ -1,7 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route} from "react-router-dom";
-
-
+import { BrowserRouter, Switch, Route, Link, NavLink} from "react-router-dom";
 import Home from "./Components/Home";
 import Directive from "./Components/Directive";
 

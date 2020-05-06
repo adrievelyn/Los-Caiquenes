@@ -12,7 +12,7 @@ import Photo7 from './../styles/images/foto7.png';
 class Directive extends React.Component{
 	render(){
 		return(
-			<div id='p02' className='container'>
+			<div id='2' className='container'>
 				<div className='photos'>
 					<div className='photo1'>
 					<img src= {Photo1} alt='Logo' width='100' height='100'/>

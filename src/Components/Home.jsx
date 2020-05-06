@@ -7,10 +7,10 @@ import comunity from './../styles/images/comunity.png';
 import comunity1 from './../styles/images/caiquenes1.png';
 import comunity2 from './../styles/images/caiquenes2.png';
 import comunity3 from './../styles/images/caiquenes3.png';
-import comunity4 from './../styles/images/sintomas.png';
-import comunity5 from './../styles/images/prevencion.png';
+import comunity4 from './../styles/images/sintomas1.png';
+import comunity5 from './../styles/images/prevencion1.png';
 import Paisaje from './../styles/images/imagen.png';
-
+import Directive from './../Components/Directive.jsx';
 
 
 class Home extends React.Component {
@@ -22,33 +22,45 @@ class Home extends React.Component {
 			<div id='1' className='container'>
 			<div className='events'>
 				<div className='logo'>
-					<img src= {Logo} alt='Logo' width='100' height='100' />
-				</div>
+					<img src= {Logo} alt='Logo' width='70' height='70' />
+			</div>
 			<header>
 				<input type='checkbox' id='btn-menu' />
 				<label for='btn-menu'><img src= {Menu} alt='Logo' width='50' height='50' /></label> 
 				<nav class='home1'>
 				<ul class='home2'>
-					<li><a href="#1" onclick="Home" id='p01'>
-  					Home
-					</a></li>
-				<li><a href="#2" onclick="Directiva" id='p02'>
-  					Directiva
-					</a></li>
-				<li><a href="#3" onclick="Informativos" id='p03'>
-  					Informativos
-					</a></li>
-				<li><a href="#4" onclick="Actividades" id='p04'>
-  					Actividades
-					</a></li>
-				<li><a href="#5" onclick="Patrimonio" id='p05'>
-  					Patrimonio
-					</a></li>
-				<li><a href="#6" onclick="Gastos Comunes" id='p06'>
-  					Gastos Comunes
-					</a></li>
-					</ul>
-					</nav>
+					<li>
+						<NavLink to="#1" onclick="Home" id='p01'>
+	  						Home
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="#2" onclick="Directiva" id='p02'>
+	  						Directiva
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="#3" onclick="Informativos" id='p03'>
+	  						Informativos
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="#4" onclick="Actividades" id='p04'>
+	  						Actividades
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="#5" onclick="Patrimonio" id='p05'>
+	  						Patrimonio
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="#6" onclick="Gastos Comunes" id='p06'>
+	  						Gastos Comunes
+						</NavLink>
+					</li>
+				</ul>
+				</nav>
 			</header>
 			</div>
 
@@ -103,12 +115,12 @@ class Home extends React.Component {
 				<div className='covid'>
 				<div className='covid1'>
 						<ul>
-							<li><img src= {comunity4} alt='imageComunity' width='400' height='300' /></li>
+							<li><img src= {comunity4} alt='imageComunity' /></li>
 						</ul>
 				</div>
 				<div className='covid2'>
 						<ul>
-							<li><img src= {comunity5} alt='imageComunity' width='400' height='300' /></li>
+							<li><img src= {comunity5} alt='imageComunity' /></li>
 						</ul>
 					</div>
 				</div>
@@ -116,7 +128,11 @@ class Home extends React.Component {
 					<div className='footer'>
 						<b>Copyright - Condominio Los Caiquenes - Altos de Izarra</b>
 					</div>
+
 				</div>
+
+
+					
 	
 			</main>
 	
